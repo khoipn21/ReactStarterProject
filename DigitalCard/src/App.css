@@ -1,0 +1,86 @@
+.header-wrapper {
+  font-family: "Courier New", Courier;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.name {
+  color: white;
+}
+
+.position {
+  color: #f3bf99;
+}
+
+.website {
+  color: white;
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.emailButton {
+  display: flex;
+  font-size: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 27px 65px 27px 65px;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.linkedinButton {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 27px 65px 27px 65px;
+  background: #5093e2;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.main-wrapper {
+  display: flex;
+  gap: 50px;
+}
+.about {
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25;
+  line-height: 150%;
+  color: #dcdcdc;
+  padding-left: 30px;
+}
+
+.interest {
+  width: 100%;
+  font-family: "Inter";
+  padding-left: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25;
+  line-height: 150%;
+  color: #dcdcdc;
+}
+
+.icon {
+  color: white;
+  padding: 20px 25px 0 25px;
+  font-size: 50px;
+}

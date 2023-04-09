@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+  max-width: 30%;
+  margin: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+}
+
